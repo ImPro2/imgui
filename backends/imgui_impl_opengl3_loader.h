@@ -55,8 +55,8 @@ typedef unsigned __int64       khronos_uint64_t;
 typedef          int64_t       khronos_int64_t;
 typedef          uint64_t      khronos_uint64_t;
 #else
-typedef signed   long long     khronos_int64_t;
-typedef unsigned long long     khronos_uint64_t;
+//typedef signed   long long     khronos_int64_t;
+//typedef unsigned long long     khronos_uint64_t;
 #endif
 
 #ifndef __gl_glcorearb_h_
@@ -93,7 +93,7 @@ extern "C" {
 ** included as <GL/glcorearb.h>.
 **
 ** glcorearb.h includes only APIs in the latest OpenGL core profile
-** implementation together with APIs in newer ARB extensions which 
+** implementation together with APIs in newer ARB extensions which
 ** can be supported by the core profile. It does not, and never will
 ** include functionality removed from the core profile, such as
 ** fixed-function vertex and fragment processing.
